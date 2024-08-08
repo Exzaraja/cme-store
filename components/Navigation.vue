@@ -7,7 +7,7 @@
           <span><img src="/img/enter-logo.png" alt="" class="md:h-14 lg:h-16"></span>
         </div>
         <!-- Navbar -->
-        <div class="py-5 md:col-span-3 ml-2">
+        <div class="py-5 flex md:col-span-3 ml-2">
           <UInput
             icon="i-heroicons-magnifying-glass-20-solid"
             size="xl"
@@ -17,6 +17,14 @@
             :trailing="true"
             placeholder="Search..."
           />
+          <UButton
+            to="/Detail"
+            color="red"
+            variant="solid"
+            class="ml-8 font-semibold"
+          >
+            LOGIN
+          </UButton>
         </div>
       </div>
     </UContainer>
